@@ -43,9 +43,6 @@ A simple and secure Node.js-based REST API for handling user authentication and 
 ├── package.json
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -57,9 +54,6 @@ Edit
    cd auth-app
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Create .env file in the root folder:
 
@@ -71,9 +65,6 @@ MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 Run the server
 
-bash
-Copy
-Edit
 npm run dev
 🔐 API Routes
 Auth Routes
@@ -100,17 +91,3 @@ See the LICENSE file for details.
 Govind Kaushik
 Full-stack Developer | MERN Stack
 GitHub • LinkedIn
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ Next Steps
-
-- Add a `LICENSE` file with the [MIT License content](https://choosealicense.com/licenses/mit/).
-- Replace placeholder links (like GitHub, LinkedIn) with your actual profiles.
-- Push the updated files to GitHub.
-
-Let me know if you’d like the LICENSE file content as well.
