@@ -6,9 +6,9 @@ require("dotenv").config();
 // auth middleware  - 
 exports.auth = (req, res, next) =>{
     try{
-        // PENDNG: ways to extract token - 
-        // extract token - 
-            const token = req.body.token ;
+        // three ways to extract token - 
+        // extracted from - cookies, body, headers!
+            const token = req.cookies.token || req.body.token || req.header("Authorization").replace("Bearer ","") ;
 
             if(!token) {
                 return res.status(401).json({
