@@ -49,17 +49,16 @@ A simple and secure Node.js-based REST API for handling user authentication and 
 ## ⚙️ Setup Instructions
 
  **Clone the repository**  
-   ```bash
+
    git clone https://github.com/your-username/auth-app.git
    cd auth-app
+   
 Install dependencies
 
 npm install
 Create .env file in the root folder:
 
 env
-Copy
-Edit
 PORT=3000
 MONGODB_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
