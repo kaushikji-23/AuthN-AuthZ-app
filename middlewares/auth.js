@@ -8,7 +8,9 @@ exports.auth = (req, res, next) =>{
     try{
         // three ways to extract token - 
         // extracted from - cookies, body, headers!
-            const token = req.cookies.token || req.body.token || req.header("Authorization").replace("Bearer ","") ;
+            const token = 
+            // req.cookies.token || req.body.token || 
+            req.header("Authorization").replace("Bearer ","") ;
 
             if(!token) {
                 return res.status(401).json({
