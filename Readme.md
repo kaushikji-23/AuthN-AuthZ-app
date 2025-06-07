@@ -87,6 +87,9 @@ Feel free to use, modify, and distribute this project with proper attribution.
 See the LICENSE file for details.
 
 🙌 Author
-Govind Kaushik
-Full-stack Developer | MERN Stack
+br
+Govind Kaushik 
+br
+Full-stack Developer | MERN Stack 
+br
 GitHub • LinkedIn
