@@ -89,4 +89,4 @@ See the LICENSE file for details.
 🙌 **Author**  
 Govind Kaushik  
 Full-stack Developer | MERN Stack  
-[GitHub](https://github.com/kaushikji-23) • [LinkedIn](www.linkedin.com/in/govindkaushik-)
+[GitHub](https://github.com/kaushikji-23) • [LinkedIn](https://www.linkedin.com/in/govindkaushik-/)
